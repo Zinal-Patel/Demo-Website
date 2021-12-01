@@ -1,0 +1,29 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh sans', sans-serif;
+    /* scroll-behavior: smooth; */
+}
+
+.navbar{
+    background: #131313;
+    height: 80px;
+    display: flex; 
+    /* The display property allows us to use justify-content and algn-items properties */
+    justify-content: center;
+    /* It positions the items in the container using the vertical axis as a reference */
+    align-items: center;
+    /* It positions the items in the container using the horizontal axis as a reference */
+    font-size: 1.2rem;
+    position: sticky; 
+    /* the navebar is relative and it moves until we reach a particular point or scroll posiiton and then it is fixed */
+    /* top:0; */
+    z-index: 999;
+    /* so that the navbar always stays on top of all the items that overlaps */
+}
+
+.navbar-container{
+
+    
+}
